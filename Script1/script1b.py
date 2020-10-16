@@ -7,6 +7,7 @@ for n in range(3, 22):
     ji = (((2 * n) - 4) * j2) - j1
     j1 = j2
     j2 = ji
-    print(n,ji)
+    index= "index: "+str(n)+" : "
+    print(index,ji)
     result.append(ji)
 

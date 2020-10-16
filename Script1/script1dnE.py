@@ -13,6 +13,7 @@ for n in itera:
     ji = (((2 * n) - 4) * j21) - j20
     j21 = j20
     j20 = ji
-    print(n,ji)
+
+    print("index" +str(n)+" : ",ji)
     result.append(ji)
 
